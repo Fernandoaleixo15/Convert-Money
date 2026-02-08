@@ -36,5 +36,7 @@
 <p>Além de ser uma ferramenta útil para o dia a dia, construir esse sistema ensina o desenvolvedor a lidar com assincronismo (esperar a resposta de um servidor) <br> e com a dinâmica da web, onde os dados mudam constantemente conforme o mercado financeiro</p>
 <hr>
 <h2>Fotos do Projeto-Conver Money</h2>
+<img width="796" height="1616" alt="image" src="https://github.com/user-attachments/assets/0e8fc68f-dff2-43a0-9d45-33e0944720ca" />
+
 
 
