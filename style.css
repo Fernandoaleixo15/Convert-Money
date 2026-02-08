@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+/* style do top da pagina */
+body{
+  background-image: url(./assests/quadro-de-notas-de-dolar_1150-6686.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.container-logo{
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(176, 176, 177);
+  position: fixed;
+}
+.logo-dev{
+  width: 30px;
+  height: 30px;
+  margin: 12px 30px;
+  border-radius: 50%;
+}
+.container-img{
+  display: flex;
+  justify-content: center;
+  
+}
+.logo-top{
+  width: 200px;
+  height: 200px;
+  
+}
+/* style do main da pagina */
+main{
+  width: 375px;
+  background:#dedede ;
+  border-radius: 20px;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+}
+label{
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+}
+select, input{
+  background: #FFF;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button{
+  background-color: #772fd3;
+  border-radius: 10px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px rgb(184, 203, 210);
+}
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  opacity: 0.6;
+}
+section{
+  border: 1px solid #772fd3;
+  border-radius: 20px;
+  margin: 23px 24px ;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow-img{
+  margin: 15px 0;
+}
+.currency-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.currency{
+  color: #777777 ;
+  font-size: 14px ;
+}
+.currency-value, .currency-value-to-convert{
+  color: #555555 ;
+  font-size: 700;
+  font-weight:20px ;
+}

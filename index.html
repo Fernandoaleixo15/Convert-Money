@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto-Convert-Money</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <div class="container-logo">
+      <a href="https://www.linkedin.com/in/fernando-aparecido-aleixo-69b53b150/" target="_blank"><img class="logo-dev" src="./assests/A (1).png" alt="logo do criador do site" /></a>
+    </div>
+
+    <figure class="container-img">
+      <img class="logo-top" src="./assests/pngtree-how-to-earn-money-online-illustration-png-image_13839224.png " alt="logo do topo da pagina">
+    </figure>
+
+    <main>
+      <label>Conveter <b>De</b>
+        <select>
+          <option value="">R$ Real brasileiro </option>
+        </select>
+      </label>
+
+      <label>Conveter <b>para</b>
+        <select class="currency-select">
+          <option value="dolar">US$ Dólar americano </option>
+          <option value="euro">€ Euro </option>
+          <option value="libra">£ Libra</option>
+        </select>
+      </label>
+      <label>
+        Valor
+        <input class="input-currency" placeholder="R$ 10.000,00">
+      </label>
+
+      <button id="convert-button" class="button-convert">Converter</button>
+
+      <section>
+        <div class="currency-box">
+          <img src="./assests/brasil 2.png" alt="logo-moeda-a-converter">
+          <h3 class="currency">Real</h3>
+          <p class="currency-value-to-convert">R$ 0,00</p>
+        </div>
+
+        <img class="arrow-img" src="./assests/Vector.png" alt="logo-vetor">
+        
+        <div class="currency-box">
+          <img class="currency-img" src="./assests/dolar-unidos .png" alt="logo-moeda-a-convertida">
+          <h3 class="currency" id="currency-name">Dólar Americano</h3>
+          <p class="currency-value">US$ 0,00</p>
+        </div>
+
+      </section>
+    </main>
+  </body>
+  <script src="./js/javascrip.js"></script>
+
+</html>
